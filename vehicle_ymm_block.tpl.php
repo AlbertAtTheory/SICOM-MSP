@@ -16,7 +16,7 @@
     
   if ($path[1] == 'cars') {
     $query->fieldCondition('field_motorcycle', 'value', '0');
-  } else {
+  } elseif ($path[1] == 'motorcycles') {
     $query->fieldCondition('field_motorcycle', 'value', '1');
   }
 
