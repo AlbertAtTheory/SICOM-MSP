@@ -3,6 +3,8 @@
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?>"<?php print $attributes; ?>>
 
   <?php print $user_picture; ?>
+  
+  <div class="bread-wrapper"><?php print theme('breadcrumb', array('breadcrumb' => drupal_get_breadcrumb())); ?></div>
 
   <?php print render($title_prefix); ?>
   <?php if (!$page): ?>
