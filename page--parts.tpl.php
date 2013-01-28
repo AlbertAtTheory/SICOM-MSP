@@ -32,6 +32,11 @@
       <?php print render($title_suffix); ?>
       <?php if ($tabs): ?><?php print render($tabs); ?></div><?php endif; ?>
       <?php print $feed_icons ?>
+      <?php if ($page['sidebar_first']): ?>
+        <div id="sidebar-first" class="sidebar">
+          <?php print render($page['sidebar_first']); ?>
+        </div>
+      <?php endif; ?>
       <div class="clearfix"><?php print $messages; ?>
         <?php print render($page['content']); ?>
       </div>

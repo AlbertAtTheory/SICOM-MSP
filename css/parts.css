@@ -40,7 +40,6 @@
 .page-parts .view-content {
   background: url(../images/shadow-r.png) top left repeat-y;
   padding: 20px 0 20px 0;
-  margin-top: -162px;
 }
 
 .page-parts .views-row {
@@ -205,11 +204,11 @@
   width: 100%;
 }
 
-#block-vehicle-ymmblock-vehicle-ymmblock {
+#sidebar-first {
   clear: left;
-  width: 160px;
+  width: 200px;
   float: left;
-  padding: 20px;
+  padding: 0px;
 }
 
 #block-vehicle-ymmblock-vehicle-ymmblock .title {
@@ -242,6 +241,7 @@
   width: 1152px;
   height: 254px;
   padding: 0;
+  margin-top: 60px;
 }
 
 .vehicle-model-scroller .jcarousel-skin-default .jcarousel-clip-horizontal {
@@ -259,9 +259,10 @@
 .vehicle-model-scroller .jcarousel-skin-default .jcarousel-item h3 {
   position: absolute;
   font-family: knockout;
-  font-size: 20px;
-  top: 5px;
-  right: 10px;
+  font-size: 24px;
+  top: 145px;
+  width: 100%;
+  text-align: center;
 }
 
 .vehicle-model-scroller .jcarousel-skin-default .jcarousel-item h3 { color: black; }
@@ -299,9 +300,13 @@
 #block-block-24 {
   background: #2b2b2b;
   width: 160px;
-  float: left;
   padding: 20px;
   text-align: center;
+}
+
+#block-vehicle-ymmblock-vehicle-ymmblock {
+  width: 160px;
+  padding: 20px;
 }
 
 #block-block-24 fieldset {
@@ -446,4 +451,12 @@
   font-size: 50px;
   font-weight: bold;
   margin-top: 10px;
+}
+
+.page-vehicle #wrapper #container #content-mid-wrapper {
+  margin-top: -110px;
+}
+
+.page-vehicle #wrapper #container #content-mid-wrapper .region-content #block-system-main .content {
+  padding-left: 10px;
 }

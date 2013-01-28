@@ -23,6 +23,8 @@
       <div class="header-right"><?php print render($page['header']); ?><?php if ($primary_nav && 1==0): print $primary_nav; endif; ?></div>
     </div>
     
+    <?php if ($page['highlighted']): ?><div id="highlighted"><?php print render($page['highlighted']); ?></div><?php endif; ?>
+    
     <div id="content-mid-wrapper">
       <?php if ($tabs): ?><div id="tabs-wrapper" class="clearfix"><?php endif; ?>
       <?php print render($title_prefix); ?>
@@ -31,6 +33,11 @@
       <?php endif; ?>
       <?php print render($title_suffix); ?>
       <?php if ($tabs): ?><?php print render($tabs); ?></div><?php endif; ?>
+      <?php if ($page['sidebar_first']): ?>
+        <div id="sidebar-first" class="sidebar">
+          <?php print render($page['sidebar_first']); ?>
+        </div>
+      <?php endif; ?>
       <div class="clearfix"><?php print $messages; ?>
         <?php print render($page['content']); ?>
       </div>
