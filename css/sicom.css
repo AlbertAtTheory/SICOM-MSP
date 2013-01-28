@@ -1,0 +1,39 @@
+.domain-SICOM #wrapper #container #header #logo-floater {
+  padding-top: 0;
+  position: absolute;
+  z-index: 10;
+}
+
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73{ margin:0 auto; text-align:center; padding:0px;width:100%; border:none;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content{ margin:0;width:100%; border:none; padding:0px;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .field-name-body{ margin:0 auto; width:100%; padding:0px;float:left;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .field-name-body .field-items{ margin:0px auto; text-align:center; padding:0px; clear:both;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .field-name-body .field-items .field-item{ margin:0px auto; padding:0px;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .field-name-body .field-items .field-item .contact-header{ margin:0 auto; text-align:center; padding:0px; clear:both; height:417px;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .field-name-body .contact-webform-block{ margin:0 auto; width:100%; padding:0px;background:url(../images/shadow.png) top center repeat-x; float:left;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .field-name-body .contact-webform-block .contact-webform-wrapper{ margin:0 auto 30px; text-align:center; padding:0px; width:923px; clear:both;background:url(../images/contact-line-bottom.png) bottom no-repeat; height:590px;}
+
+
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .field-name-body .field-items h2{ width:923px; margin:0 auto; text-align:center; padding:40px 0px 30px; background:url(../images/contact-title-bg.png) scroll 0px 35px no-repeat; color:#000; font-size:18px; font-weight:bold; }
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .field-name-body .field-items .field-item .contact-left{ float:left; width:445px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#555;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .field-name-body .field-items .field-item .contact-left .contact-headline{ text-align:left;font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#363636; padding:30px 0px 20px; font-weight:normal; line-height:30px;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .field-name-body .field-items .field-item .contact-left .contact-details{ text-align:left; color:#555555; float:left; font-family:Arial, Helvetica, sans-serif; line-height:18px; font-size:12px; padding-bottom:15px;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .field-name-body .field-items .field-item .contact-left .contact-dealer{ float:left; background:#2b2b2b; width:425px; padding:10px;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .field-name-body .field-items .field-item .contact-left .contact-dealer h2{ text-align:left;font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#fff; font-weight:bold; line-height:30px; background:none; width:auto; padding:0px 0px 0px 5px;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .field-name-body .field-items .field-item .contact-left .contact-dealer p{ margin:0px; padding:0px;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .field-name-body .field-items .field-item .contact-left .contact-dealer p img{ float:left;}
+
+
+
+
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .contact-form { position:relative; margin:0 auto; text-align:center; padding:0px;width:923px; float:none;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .contact-form #webform-client-form-73{ margin:0 auto; text-align:center; padding:0px; position:absolute;width:430px; top:500px; right:0px;}
+
+
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .contact-form #webform-client-form-73 .form-item{ clear:both; margin:0px; padding:0px;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .contact-form #webform-client-form-73 .form-item label{ text-align:left; font-size:16px; color:#797979; line-height:36px; font-family:Arial, Helvetica, sans-serif; font-weight:normal; text-transform:uppercase;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .contact-form #webform-client-form-73 .form-item .form-text{ border:1px solid #797979; width:420px; padding:8px 5px; float:left; color:#555;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .contact-form #webform-client-form-73 .form-item .form-textarea{ border:1px solid #797979;color:#555;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .contact-form #webform-client-form-73 .form-item .grippie{ display:none;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .contact-form #webform-client-form-73 .form-actions{ float:right;}
+#wrapper #container #content-mid-wrapper .region-content #block-system-main .content #node-73 .content .contact-form #webform-client-form-73 .form-actions .form-submit{background:url(../images/submit-btn.png) top right no-repeat; width:97px; height:26px; border:none; outline:none; font-size:0px; text-indent:-999px; cursor:pointer;}

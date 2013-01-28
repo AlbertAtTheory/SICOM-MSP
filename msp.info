@@ -1,0 +1,14 @@
+name = MSP / SICOM
+description = Design by Theory Communication & Design.
+package = Core
+version = VERSION
+core = 7.x
+
+base theme = garland
+
+stylesheets[all][] = css/default.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/sicom.css
+stylesheets[all][] = css/parts.css
+
+settings[garland_width] = fluid
