@@ -54,6 +54,9 @@ body {
         list-style-type: none !important;
       }
     }
+    &#block-vehicle-ymmblock-vehicle-ymmblock {
+      padding-top: 0;
+    }
   }
   .content > ul > li {
     margin-left: 0 !important;
@@ -73,6 +76,47 @@ body {
       width: 100%;
       font: bold 12px arial, sans-serif;
       margin: 0 0 5px;
+    }
+  }
+}
+
+.page-parts {
+  .view-content {
+    background: url(../images/shadow-r.png) top left repeat-y;
+    padding: 20px 0 20px 0;
+  }
+  .views-row {
+    clear: both;
+    position: relative;
+    height: 170px;
+    margin-bottom: 20px;
+    background: url(../images/hash.png) left 100px repeat-x;
+  }
+  .views-field-field-image {
+    position: absolute;
+    bottom: 0;
+  }
+  .views-field-make-name a {
+    float: right;
+    font-size: 55px;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 48px;
+    font-family: knockout;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .views-field-nothing {
+    float: right;
+    clear: right;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: white;
+    padding: 5px;
+    margin-top: -10px;
+    a {
+      color: #313131;
     }
   }
 }

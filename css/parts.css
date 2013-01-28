@@ -37,51 +37,6 @@
   margin-bottom: 0;
 }
 
-.page-parts .view-content {
-  background: url(../images/shadow-r.png) top left repeat-y;
-  padding: 20px 0 20px 0;
-}
-
-.page-parts .views-row {
-  clear: both;
-  position: relative;
-  height: 170px;
-  margin-bottom: 20px;
-  background: url(../images/hash.png) left 100px repeat-x;
-}
-
-.page-parts  .views-field-field-image {
-  position: absolute;
-  bottom: 0;
-}
-
-.page-parts .views-field-make-name a {
-  float: right;
-  font-size: 55px;
-  text-transform: uppercase;
-  color: black;
-  margin-top: 45px;
-  font-family: knockout;
-}
-
-.page-parts .views-field-make-name a:hover {
-  text-decoration: none;
-}
-
-.page-parts .views-field-nothing {
-  float: right;
-  clear: right;
-  font-size: 18px;
-  text-transform: uppercase;
-  background: white;
-  padding: 5px;
-  margin-top: -12px;
-}
-
-.page-parts .views-field-nothing a {
-  color: #313131;
-}
-
 .page-vehicle-make .term-listing-heading table {
   display: none;
 }
