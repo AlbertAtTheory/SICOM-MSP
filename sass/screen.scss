@@ -92,12 +92,13 @@ body {
  */
 .page-vehicle-make,
 .page-vehicle-model,
-.page-taxonomy {
+.page-taxonomy,
+.page-parts {
   .node-teaser {
     background: #d8d8d8;
     float: left;
     width: 150px;
-    margin-right: 10px;
+    margin: 0 0 10px 10px;
     text-align: center;
     h2 {
       text-align: left;
@@ -125,42 +126,52 @@ body {
 }
 
 .page-parts {
-  .view-content {
-    background: url(../images/shadow-r.png) top left repeat-y;
-    padding: 20px 0 20px 0;
-  }
-  .views-row {
-    clear: both;
-    position: relative;
-    height: 170px;
-    margin-bottom: 20px;
-    background: url(../images/hash.png) left 100px repeat-x;
-  }
-  .views-field-field-image {
-    position: absolute;
-    bottom: 0;
-  }
-  .views-field-make-name a {
-    float: right;
-    font-size: 55px;
-    text-transform: uppercase;
-    color: black;
-    margin-top: 48px;
-    font-family: knockout;
-    &:hover {
-      text-decoration: none;
+  &.page-parts-model {
+    h1 {
+      margin-top: 20px;
+    }
+    .views-exposed-form {
+      display: none;
     }
   }
-  .views-field-nothing {
-    float: right;
-    clear: right;
-    font-size: 18px;
-    text-transform: uppercase;
-    background: white;
-    padding: 5px;
-    margin-top: -10px;
-    a {
-      color: #313131;
+  .view-autoparts {
+    .view-content {
+      background: url(../images/shadow-r.png) top left repeat-y;
+      padding: 20px 0 20px 0;
+    }
+    .views-row {
+      clear: both;
+      position: relative;
+      height: 170px;
+      margin-bottom: 20px;
+      background: url(../images/hash.png) left 100px repeat-x;
+    }
+    .views-field-field-image {
+      position: absolute;
+      bottom: 0;
+    }
+    .views-field-make-name a {
+      float: right;
+      font-size: 55px;
+      text-transform: uppercase;
+      color: black;
+      margin-top: 48px;
+      font-family: knockout;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    .views-field-nothing {
+      float: right;
+      clear: right;
+      font-size: 18px;
+      text-transform: uppercase;
+      background: white;
+      padding: 5px;
+      margin-top: -10px;
+      a {
+        color: #313131;
+      }
     }
   }
 }
