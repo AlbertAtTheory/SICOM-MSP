@@ -204,24 +204,6 @@
   width: 100%;
 }
 
-#sidebar-first {
-  clear: left;
-  width: 200px;
-  float: left;
-  padding: 0px;
-}
-
-#block-vehicle-ymmblock-vehicle-ymmblock .title {
-  font-family: knockout;
-  text-transform: uppercase;
-  font-size: 20px;
-  margin-bottom: 5px;
-}
-
-#block-vehicle-ymmblock-vehicle-ymmblock a {
-  color: black;
-}
-
 .page-parts #block-system-main,
 .page-vehicle-make #block-system-main {
   float: left;
@@ -296,32 +278,6 @@
 
 .field-type-text-long ul { list-style: disc; }
 .field-type-text-long li { margin-left: 20px; margin-bottom: 5px; }
-
-#block-block-24 {
-  background: #2b2b2b;
-  width: 160px;
-  padding: 20px;
-  text-align: center;
-}
-
-#block-vehicle-ymmblock-vehicle-ymmblock {
-  width: 160px;
-  padding: 20px;
-}
-
-#block-block-24 fieldset {
-  display: inline-block;
-}
-
-#block-block-24 .content select,
-#block-block-24 .content input {
-  background: #252525;
-  border: solid 1px #404040;
-  color: white;
-  width: 100%;
-  font: bold 12px arial, sans-serif;
-  margin: 0 0 5px;
-}
 
 .technologies-box {
   width: 1003px;
