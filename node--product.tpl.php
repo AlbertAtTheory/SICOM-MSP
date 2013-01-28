@@ -4,7 +4,7 @@
 
   <?php print $user_picture; ?>
   
-  <div class="bread-wrapper"><?php print theme('breadcrumb', array('breadcrumb' => drupal_get_breadcrumb())); ?></div>
+  <?php if ($page): ?><div class="bread-wrapper"><?php print theme('breadcrumb', array('breadcrumb' => drupal_get_breadcrumb())); ?></div><?php endif; ?>
 
   <?php print render($title_prefix); ?>
   <?php if (!$page): ?>
