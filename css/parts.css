@@ -401,6 +401,10 @@
   margin-top: 3px;
 }
 
+.header-right ul.main-menu li.sf-depth-1.first:before {
+  content: "";
+}
+
 .sf-menu,
 .sf-menu * {
   z-index: 500 !important;
