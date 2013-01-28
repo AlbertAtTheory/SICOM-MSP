@@ -5,6 +5,13 @@
 
 @import "compass/reset";
 
+@mixin page-width {
+  width: 982px !important;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 @font-face {
     font-family: 'helveticaneuelt_stdbold';
     src: url('../font/helveticaneueltstd-bd-webfont.eot');
@@ -80,6 +87,43 @@ body {
   }
 }
 
+/**
+ * Defines product teaser display.
+ */
+.page-vehicle-make,
+.page-vehicle-model,
+.page-taxonomy {
+  .node-teaser {
+    background: #d8d8d8;
+    float: left;
+    width: 150px;
+    margin-right: 10px;
+    text-align: center;
+    h2 {
+      text-align: left;
+      padding: 5px;
+      width: 150px;
+      height: 46px;
+      overflow: hidden;
+      a {
+        font-size: 16px;
+        text-transform: uppercase;
+        color: black;
+      }
+    }
+    img {
+      border-top: 1px solid white;
+      border-bottom: 1px solid white;
+    }
+    .node-readmore {
+      display: none;
+    }
+  }
+  .field-name-field-sku {
+    padding: 5px;
+  }
+}
+
 .page-parts {
   .view-content {
     background: url(../images/shadow-r.png) top left repeat-y;
@@ -119,4 +163,8 @@ body {
       color: #313131;
     }
   }
+}
+
+.page-vehicle #wrapper #container #content-mid-wrapper {
+  margin-top: -105px;
 }

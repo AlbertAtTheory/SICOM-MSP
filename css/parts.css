@@ -3,7 +3,8 @@
 .page-vehicle-make #content-mid-wrapper,
 .page-vehicle-model #content-mid-wrapper,
 .page-cart #content-mid-wrapper,
-.page-checkout #content-mid-wrapper {
+.page-checkout #content-mid-wrapper,
+.page-taxonomy #content-mid-wrapper {
   width: 982px !important;
   margin: 0 auto;
   padding-top: 20px;
@@ -40,45 +41,6 @@
 .page-vehicle-make .term-listing-heading table {
   display: none;
 }
-
-.page-vehicle-make .node-teaser,
-.page-vehicle-model .node-teaser {
-  background: #d8d8d8;
-  float: left;
-  width: 150px;
-  margin-right: 10px;
-  text-align: center;
-}
-
-.page-vehicle-make .node-teaser h2,
-.page-vehicle-model .node-teaser h2 {
-  text-align: left;
-  padding: 5px;
-  width: 150px;
-  height: 46px;
-  overflow: hidden;
-}
-
-.page-vehicle-make .node-teaser h2 a,
-.page-vehicle-model .node-teaser h2 a {
-  font-size: 16px;
-  text-transform: uppercase;
-  color: black;
-}
-
-.page-vehicle-make .node-teaser img,
-.page-vehicle-model .node-teaser img {
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-}
-
-.page-vehicle-make .field-name-field-sku,
-.page-vehicle-model .field-name-field-sku {
-  padding: 5px;
-}
-
-.page-vehicle-make .node-teaser .node-readmore,
-.page-vehicle-model .node-teaser .node-readmore { display: none; }
 
 .node-type-product .cloud-zoom-container {
   width: 430px;
@@ -362,10 +324,6 @@
   font-size: 50px;
   font-weight: bold;
   margin-top: 10px;
-}
-
-.page-vehicle #wrapper #container #content-mid-wrapper {
-  margin-top: -110px;
 }
 
 .page-vehicle #wrapper #container #content-mid-wrapper .region-content #block-system-main > .content {
