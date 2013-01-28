@@ -457,6 +457,6 @@
   margin-top: -110px;
 }
 
-.page-vehicle #wrapper #container #content-mid-wrapper .region-content #block-system-main .content {
+.page-vehicle #wrapper #container #content-mid-wrapper .region-content #block-system-main > .content {
   padding-left: 10px;
 }
